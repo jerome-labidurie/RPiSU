@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2014-01-07 BZR 4610)-product date = mer. 08 janv. 2014 13:52:43 CET
+
+BeginCmp
+TimeStamp = /52C983AC;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors:cnp_6mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97F8D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C978C4;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C978D6;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97AD6;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C9723F;
+Reference = IC1;
+ValeurCmp = ATTINY25-P;
+IdModule  = Sockets_DIP:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C9787A;
+Reference = K1;
+ValeurCmp = RELAI-1RT;
+IdModule  = local:Relay V23040;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97DF4;
+Reference = P1;
+ValeurCmp = PowerIn;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97C57;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Arrays:PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97A99;
+Reference = P3;
+ValeurCmp = PiPower;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97988;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97FBA;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97B27;
+Reference = R2;
+ValeurCmp = 30K;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C979A7;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97AEA;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C9853E;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C97D8E;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Discret:SW_PUSH_SMALL;
+EndCmp
+
+EndListe
