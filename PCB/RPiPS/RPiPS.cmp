@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = dim. 28 sept. 2014 14:09:17 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = dim. 28 sept. 2014 17:38:38 CEST
 
 BeginCmp
 TimeStamp = /5426CB77;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /5426BF4B;
 Reference = K1;
 ValeurCmp = RELAI-1RT;
-IdModule  = relay:Relay V23040;
+IdModule  = relay:Relay_V23040;
 EndCmp
 
 BeginCmp
