@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = sam. 27 sept. 2014 17:01:53 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = dim. 28 sept. 2014 14:09:17 CEST
 
 BeginCmp
 TimeStamp = /5426CB77;
@@ -71,10 +71,10 @@ IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5426B8E9;
+TimeStamp = /5427E170;
 Reference = Q1;
-ValeurCmp = 2N2222;
-IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-CBE;
+ValeurCmp = PN2222A;
+IdModule  = Discret:TO92-123;
 EndCmp
 
 BeginCmp
@@ -123,7 +123,7 @@ BeginCmp
 TimeStamp = /542709A2;
 Reference = U1;
 ValeurCmp = TSOP4838;
-IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-ECB;
+IdModule  = IR:TSOP4838;
 EndCmp
 
 EndListe

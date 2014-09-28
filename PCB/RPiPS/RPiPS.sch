@@ -84,10 +84,9 @@ F 3 "" H 2900 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1050 2900 1200
+	2900 1050 2900 1300
 Wire Wire Line
 	2900 1200 2800 1200
-NoConn ~ 2800 1300
 Wire Wire Line
 	2000 1300 1250 1300
 Wire Wire Line
@@ -100,7 +99,6 @@ Wire Wire Line
 	2000 1500 1250 1500
 Text Label 1250 1500 0    60   ~ 0
 GPIO4
-NoConn ~ 2000 1600
 Wire Wire Line
 	2000 1700 1250 1700
 Wire Wire Line
@@ -126,7 +124,6 @@ Text Label 1250 2200 0    60   ~ 0
 GPIO9(MISO)
 Text Label 1250 2300 0    60   ~ 0
 GPIO11(SCLK)
-NoConn ~ 2000 2400
 $Comp
 L GND #PWR03
 U 1 1 50A55C3F
@@ -154,7 +151,6 @@ Wire Wire Line
 	2800 1700 3500 1700
 Text Label 3500 1700 2    60   ~ 0
 GPIO18
-NoConn ~ 2800 1800
 Wire Wire Line
 	2800 1900 3500 1900
 Wire Wire Line
@@ -163,7 +159,6 @@ Text Label 3500 1900 2    60   ~ 0
 GPIO23
 Text Label 3500 2000 2    60   ~ 0
 GPIO24
-NoConn ~ 2800 2100
 Wire Wire Line
 	2800 2200 3500 2200
 Text Label 3500 2200 2    60   ~ 0
@@ -257,17 +252,6 @@ Wire Wire Line
 Connection ~ 5500 3050
 Wire Wire Line
 	5500 2100 6000 2100
-$Comp
-L NPN Q1
-U 1 1 5426B8E9
-P 8950 1900
-F 0 "Q1" H 8950 1750 50  0000 R CNN
-F 1 "2N2222" H 8950 2050 50  0000 R CNN
-F 2 "Housings_TO-92:TO-92-Bipolar-inline-wide-CBE" H 8950 1900 60  0001 C CNN
-F 3 "" H 8950 1900 60  0000 C CNN
-	1    8950 1900
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R3
 U 1 1 5426B945
@@ -577,7 +561,7 @@ U 1 1 542709A2
 P 2300 3550
 F 0 "U1" H 2450 3800 60  0000 C CNN
 F 1 "TSOP4838" H 2450 3300 60  0000 C CNN
-F 2 "Housings_TO-92:TO-92-Bipolar-inline-wide-ECB" H 2300 3550 60  0001 C CNN
+F 2 "IR:TSOP4838" H 2300 3550 60  0001 C CNN
 F 3 "" H 2300 3550 60  0000 C CNN
 	1    2300 3550
 	1    0    0    -1  
@@ -670,4 +654,46 @@ Wire Notes Line
 	11200 5100 10200 5100
 Wire Notes Line
 	10200 5100 10200 4350
+$Comp
+L PN2222A Q1
+U 1 1 5427E170
+P 8950 1900
+F 0 "Q1" H 8950 1752 40  0000 R CNN
+F 1 "PN2222A" H 8950 2050 40  0000 R CNN
+F 2 "Discret:TO92-123" H 8850 2002 29  0000 C CNN
+F 3 "" H 8950 1900 60  0000 C CNN
+	1    8950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1300 2800 1300
+Connection ~ 2900 1200
+Wire Wire Line
+	2000 1600 1950 1600
+Wire Wire Line
+	1950 1600 1950 2500
+$Comp
+L GND #PWR022
+U 1 1 54280058
+P 1950 2500
+F 0 "#PWR022" H 1950 2500 30  0001 C CNN
+F 1 "GND" H 1950 2430 30  0001 C CNN
+F 2 "" H 1950 2500 60  0001 C CNN
+F 3 "" H 1950 2500 60  0001 C CNN
+	1    1950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1800 2900 1800
+Connection ~ 2900 1800
+Wire Wire Line
+	2800 2100 2900 2100
+Connection ~ 2900 2100
+Wire Wire Line
+	2000 2400 1950 2400
+Connection ~ 1950 2400
+Text Notes 5350 2450 1    60   ~ 0
+power on
+Text Notes 8850 3900 1    60   ~ 0
+boot ok
 $EndSCHEMATC

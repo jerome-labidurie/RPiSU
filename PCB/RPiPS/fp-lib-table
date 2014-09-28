@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name relay)(type KiCad)(uri ${KIPRJMOD}/Relay_V23040.pretty/)(options "")(descr ""))
+  (lib (name IR)(type KiCad)(uri ${KIPRJMOD}/IR.pretty/)(options "")(descr ""))
 )
