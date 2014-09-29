@@ -213,7 +213,7 @@ F 1 "CONN_01X02" V 4900 2350 50  0000 C CNN
 F 2 "Connect:bornier2" H 4800 2350 60  0001 C CNN
 F 3 "" H 4800 2350 60  0000 C CNN
 	1    4800 2350
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5750 1300 5000 1300
